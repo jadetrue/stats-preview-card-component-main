@@ -18,6 +18,9 @@
 
     @media (min-width: $desktop) {
         text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 

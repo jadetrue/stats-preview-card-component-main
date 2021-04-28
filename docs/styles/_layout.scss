@@ -20,11 +20,18 @@ img {
 .description,
 .stats {
     padding: 32px;
+
+    @media (min-width: $desktop) {
+        max-width: 45%;
+    }
+}
+
+.description {
+    @media (min-width: $desktop) {}
 }
 
 .stats {
     @media (min-width: $desktop) {
-
         display: grid;
         grid-auto-flow: column;
         grid-template-rows: auto auto;

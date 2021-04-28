@@ -41,6 +41,9 @@ div {
 @media (min-width: 1440px) {
   .information {
     text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 
@@ -111,6 +114,12 @@ img {
 .description,
 .stats {
   padding: 32px;
+}
+@media (min-width: 1440px) {
+  .description,
+.stats {
+    max-width: 45%;
+  }
 }
 
 @media (min-width: 1440px) {
