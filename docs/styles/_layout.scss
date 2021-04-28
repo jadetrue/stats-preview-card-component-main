@@ -33,6 +33,10 @@ img {
     }
 }
 
+.container {
+    position: relative;
+}
+
 .description {
     @media (min-width: $desktop) {}
 }

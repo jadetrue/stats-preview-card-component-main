@@ -56,14 +56,15 @@
     background-color: $primary-accent;
     opacity: 0.5;
     z-index: 1;
-    height: 246px;
+    height: 100%;
     width: 100%;
+    top: 0;
+    left: 0;
     position: absolute;
     border-radius: 10px 10px 0 0;
 
     @media (min-width: $desktop) {
-        height: 100%;
-        width: 497px !important;
+        display: block;
         border-radius: 0 10px 10px 0;
     }
 }
