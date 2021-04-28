@@ -5,44 +5,77 @@
   box-sizing: border-box;
   font-size: 15px;
   background-color: #090b1a;
-  color: rgba(255, 255, 255, 0.75);
-  font-family: "Inter", sans-serif;
 }
 
 .header,
 .paragraph,
-.stats {
+.stats,
+.description {
   background: transparent;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .card {
   background-color: #1b1938;
   width: 100%;
-  height: 100vh;
+  height: fit-content;
   border-radius: 10px;
-  padding: 40px;
+  padding-bottom: 30px;
+  position: relative;
 }
 
 .header {
-  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 700;
+  font-size: 30px;
+  color: white;
 }
 .header--prominent {
   color: #aa5cdb;
 }
 
-section {
-  margin: 10px;
+.paragraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.8;
+  padding: 10px;
+}
+.paragraph--upper {
+  text-transform: uppercase;
+  padding: 0 0 25px 0;
+}
+
+.overlay {
+  background-color: #aa5cdb;
+  opacity: 0.5;
+  z-index: 1;
+  height: 246px;
+  width: 100%;
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+}
+
+section,
+footer {
+  margin: 30px 20px;
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+img {
+  display: block;
+  padding: 0;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.description {
+  padding: 32px;
 }

@@ -22,21 +22,17 @@ $desktop: 1440px;
     box-sizing: border-box;
     font-size: 15px;
     background-color: $primary-main-bg;
-    color: $main-paragraph;
-    font-family: 'Inter', sans-serif;
 }
 
 .header,
 .paragraph,
-.stats {
+.stats,
+.description {
     background: transparent;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+    color: $main-paragraph;
 }
