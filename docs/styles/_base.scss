@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-// Colour Pallette
+// Colour Palette
 
 $primary-main-bg: hsl(233, 47%, 7%);
 $primary-card-bg: hsl(244, 38%, 16%);
@@ -22,6 +22,14 @@ $desktop: 1440px;
     box-sizing: border-box;
     font-size: 15px;
     background-color: $primary-main-bg;
+    color: $main-paragraph;
+    font-family: 'Inter', sans-serif;
+}
+
+.header,
+.paragraph,
+.stats {
+    background: transparent;
 }
 
 .attribution {
