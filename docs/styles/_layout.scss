@@ -17,9 +17,16 @@ img {
     }
 }
 
-.description,
-.stats {
+.description {
     padding: 32px;
+
+    @media (min-width: $desktop) {
+        max-width: 45%;
+    }
+}
+
+.stats {
+    padding: 10px 32px;
 
     @media (min-width: $desktop) {
         max-width: 45%;

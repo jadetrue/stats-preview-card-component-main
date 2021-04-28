@@ -62,7 +62,7 @@ div {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.8;
-  padding: 10px;
+  padding: 10px 0;
 }
 .paragraph--upper {
   text-transform: uppercase;
@@ -111,13 +111,20 @@ img {
   }
 }
 
-.description,
-.stats {
+.description {
   padding: 32px;
 }
 @media (min-width: 1440px) {
-  .description,
+  .description {
+    max-width: 45%;
+  }
+}
+
 .stats {
+  padding: 10px 32px;
+}
+@media (min-width: 1440px) {
+  .stats {
     max-width: 45%;
   }
 }
