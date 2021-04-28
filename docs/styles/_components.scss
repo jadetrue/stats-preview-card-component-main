@@ -5,6 +5,20 @@
     border-radius: 10px;
     padding-bottom: 30px;
     position: relative;
+
+    @media (min-width: $desktop) {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0;
+        width: unset;
+    }
+}
+
+.information {
+
+    @media (min-width: $desktop) {
+        text-align: left;
+    }
 }
 
 .header {
@@ -29,6 +43,10 @@
         text-transform: uppercase;
         padding: 0 0 25px 0;
     }
+
+    @media (min-width: $desktop) {
+        padding: 0;
+    }
 }
 
 .overlay {
@@ -39,4 +57,10 @@
     width: 100%;
     position: absolute;
     border-radius: 10px 10px 0 0;
+
+    @media (min-width: $desktop) {
+        height: 100%;
+        width: 540px;
+        border-radius: 0 10px 10px 0;
+    }
 }
