@@ -36,4 +36,14 @@ div {
     font-size: 11px;
     text-align: center;
     color: $main-paragraph;
+    font-family: 'Inter', sans-serif;
+}
+
+.attribution a {
+    color: $main-paragraph;
+    text-decoration: none;
+
+    &:hover {
+        color: $primary-accent;
+    }
 }
