@@ -11,11 +11,11 @@
         flex-direction: row-reverse;
         padding: 0;
         width: unset;
+        max-width:1100px;
     }
 }
 
 .information {
-
     @media (min-width: $desktop) {
         text-align: left;
         display: flex;
@@ -55,7 +55,6 @@
 .overlay {
     background-color: $primary-accent;
     opacity: 0.5;
-    z-index: 1;
     height: 100%;
     width: 100%;
     top: 0;

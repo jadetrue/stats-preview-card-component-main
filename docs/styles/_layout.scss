@@ -1,9 +1,14 @@
-section,
+.section,
 footer {
     margin: 30px 20px;
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.section {
+    align-items: center;
+    height:100vh;
 }
 
 img {
@@ -14,6 +19,7 @@ img {
 
     @media (min-width: $desktop) {
         border-radius: 0px 10px 10px 0;
+        width: unset;
     }
 }
 
@@ -21,7 +27,7 @@ img {
     padding: 32px;
 
     @media (min-width: $desktop) {
-        max-width: 45%;
+        padding: 10px 90px;
     }
 }
 
@@ -29,7 +35,7 @@ img {
     padding: 10px 32px;
 
     @media (min-width: $desktop) {
-        max-width: 45%;
+        padding: 10px 90px;
     }
 }
 
