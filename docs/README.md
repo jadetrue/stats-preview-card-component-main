@@ -24,11 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](\images\desktop-screenshot.jpg)
+![](https://github.com/jadetruexo/stats-preview-card-component-main/blob/main/docs/images/desktop-screenshot.jpg?raw=true)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-using-flexbox-and-grid-RhPeDLCkW](https://www.frontendmentor.io/solutions/stats-preview-card-using-flexbox-and-grid-RhPeDLCkW)
 - Live Site URL: [https://jadetruexo.github.io/stats-preview-card-component-main/](https://your-live-site-url.com)
 
 ## My process
